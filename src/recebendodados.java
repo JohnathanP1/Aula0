@@ -8,10 +8,10 @@ public class recebendodados {
 		
 		String nomeUsuario;
 		System.out.println("Por favor, escreva seu nome:");
-// \ A linha abaixo le o texto que o usuário escreve no seu teclado
+		// A linha abaixo le o texto que o usuário escreve no seu teclado
 	nomeUsuario =leitor.next();
-// A linha abaixo exibe o conteúdo da variável . Ela faz isso ao exibir um texto e junt-ló a váriavel
-System.out.println("Obrigado por utilizar o programa,"+ nomeUsuario ) ;
+	// A linha abaixo exibe o conteúdo da variável . Ela faz isso ao exibir um texto e junt-ló a váriavel
+		System.out.println("Obrigado por utilizar o programa,"+ nomeUsuario ) ;
 
 leitor.close ();
 
